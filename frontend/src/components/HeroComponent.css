@@ -5,14 +5,15 @@
     margin-top: 75px;
 }
 
-.textSec{
+.hero-band .textSec{
     align-items: center;
     vertical-align: middle;
     height: 400px;
-    padding: 100px 0;
+    padding: 100px 20px;
+    text-align: center;
 }
-.textSec h3,.textSec h4{
+
+
+ .hero-band .imgSec img {
     width: 100%;
-    margin: 10px 0;
-    display: flex;
 }

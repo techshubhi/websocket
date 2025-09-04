@@ -7,10 +7,10 @@ const HeroComponent = ({img, imgAlt, heading, subheading}) => {
     <Container fluid className='hero-band'>
        <Container>
          <Row>
-            <Col className='imgSec'>
+           <Col xs={12} sm={12} md={6} lg={6} className='imgSec'>
                 <img alt={imgAlt} src={img} />
             </Col>
-            <Col className='textSec'>
+            <Col xs={12} sm={12} md={6} lg={6} className='textSec'>
                 <h3>{heading}</h3>
                 <h4>{subheading}</h4>
             </Col>

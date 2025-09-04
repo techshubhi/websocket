@@ -1,13 +1,13 @@
 import React from "react";
-import { Container, Stack } from "react-bootstrap";
+import { Container, Row, Col, Stack } from "react-bootstrap";
 
 const Footer = () => {
   return (
     <Container fluid className="footer" >
      <Container className="address-band"> 
-       <Stack direction="horizontal" gap="5">
-        <div className="p-2">Trendy Pack Nigeria Ltd.</div>
-        <div className="p-2">
+       <Row direction="horizontal" gap="5">
+        <Col xs={12} sm={12} md={3} lg={3}>Trendy Pack Nigeria Ltd.</Col>
+        <Col xs={12} sm={12} md={3} lg={3}>
           <h4>Address</h4>
           <p>De Real House, 4/5, Irewole Estate,</p>
           <p>Off Idiroko Road, Sango Ota,</p>
@@ -16,8 +16,8 @@ const Footer = () => {
             <span className="bold">Email:</span>Rajkumar@trendypack.co
           </p>
           <p>info@trendypack.co</p>
-        </div>
-        <div className="p-2">
+        </Col>
+        <Col xs={12} sm={12} md={3} lg={3}>
           <h4>Products</h4>
           <p>Tapes</p>
           <p>Cloth</p>
@@ -28,8 +28,8 @@ const Footer = () => {
           <p>Nord Gear Box Coupling</p>
           <p>NRV Valve (Nuematic Actuator )</p>
           <p>Blade</p>
-        </div>
-        <div className="p-2">
+        </Col>
+        <Col xs={12} sm={12} md={3} lg={3}>
           <h4>{""}</h4>
           <p>Adhesive mixing Head </p>
           <p>Static Mixer for adhesive </p>
@@ -41,8 +41,8 @@ const Footer = () => {
           <p>Magnatic Powder for Break </p>
           <p>Micrometer Mitutoyo</p>
           <p>GSM template</p>
-        </div>
-      </Stack>
+        </Col>
+      </Row>
      </Container>
      <Container fluid className="copyright-band">
       <Stack direction="horizontal">
