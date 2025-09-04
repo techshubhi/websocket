@@ -37,41 +37,122 @@ a {
 .logo {
   width: 85px;
 }
+
 a.navbar-brand {
   display: flex;
   vertical-align: middle;
 }
+
 a.navbar-brand p {
   margin: 10px 0;
   color: #1f6bb1;
   font-weight: 600;
+  font-size: 14px;
+}
+.nav-item.dropdown {
+    padding: 0 8px;
 }
 .navbar-nav a {
   color: #1f6bb1;
 }
+.dropdown-menu.show .nav-item.show .dropdown-menu {
+    width: 200px;
+    left: 295px;
+    top: 0;
+    border-left: 0;
+}
+
+.dropdown-menu.show {
+    width: 300px;
+}
 .footer {
   background: #f8f9fa;
 }
+
 .footer .address-band .hstack {
-    padding: 50px 20px;
-    align-items: flex-start;
-    color: #002a51;
+  padding: 50px 20px;
+  align-items: flex-start;
+  color: #002a51;
 }
+
 .footer-logo {
   display: flex;
-    padding: 25px 0;
-    align-items: center;
-    font-size: 14px;
-    font-weight: 600;
+  padding: 25px 0;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
 }
-.footer-logo p{
+
+.footer-logo p {
   width: 100%;
   text-align: center;
 }
-.copyright-band{
+
+.copyright-band {
   background: #002a51;
-  color:#fff;
+  color: #fff;
 }
+
+
+
+.key-products-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+.keyContainer {
+    border: 1px solid #1f6bb1;
+    margin: 30px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.keyContainer .key-heading{
+  color: #002a51;
+}
+.section-title {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+.section-title b {
+    background-color: currentColor;
+    display: block;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+}
+.section-title .section-title-main{
+  margin:  20px;
+  text-transform: uppercase;
+
+}
+.keyContainer p{
+  color: #1f6bb1;
+  margin-bottom: 20px;
+
+}
+.keyContainer img{
+  width: 200px;
+}
+.keyContainer .imgContainer{
+  height: 200px;
+}
+.keyContainer button{
+  background: #002a51;
+  color: #fff;
+  margin: 20px 0;
+  width: 80%;
+  align-items: center;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

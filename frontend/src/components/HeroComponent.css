@@ -1,0 +1,18 @@
+.hero-band {
+    background: #002a51;
+    color: #fff;
+    padding: 40px 0px;
+    margin-top: 75px;
+}
+
+.textSec{
+    align-items: center;
+    vertical-align: middle;
+    height: 400px;
+    padding: 100px 0;
+}
+.textSec h3,.textSec h4{
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+}
