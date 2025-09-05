@@ -195,6 +195,7 @@ p.trust_image_text {
 }
 .about-home-section{
   padding: 100px 20px;
+  background: #f8f9fa;
 }
 .about-home-section .imgSec img {
     width: 100%;

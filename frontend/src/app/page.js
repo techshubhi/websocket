@@ -70,7 +70,7 @@ export default function Home() {
           </Button>
         </Container>
       </Container>
-      <Container className="about-home-section">
+      <Container fluid className="about-home-section">
         <Container>
           <Row>
             <Col xs={12} sm={12} md={6} lg={6} className="imgSec">
