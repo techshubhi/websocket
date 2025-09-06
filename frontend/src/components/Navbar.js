@@ -10,7 +10,7 @@ const NavbarC = () => {
       fixed="top"
     >
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img
             alt="Trendy Pack Nigeria Ltd."
             src="/images/TP.png"

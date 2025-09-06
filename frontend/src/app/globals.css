@@ -54,6 +54,11 @@ p{
 .logo {
   width: 85px;
 }
+ .container-fluid{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+}
 
 a.navbar-brand {
   display: flex;
@@ -167,7 +172,7 @@ a.navbar-brand p {
   width: 200px;
 }
 .keyContainer .imgContainer{
-  height: 200px;
+  height: 280px;
 }
 .keyContainer button{
   background: #002a51;
