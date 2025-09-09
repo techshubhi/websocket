@@ -17,3 +17,7 @@
  .hero-band .imgSec img {
     width: 100%;
 }
+
+.contact-hero-image img{
+     transform: scaleX(-1);
+}

@@ -89,7 +89,7 @@ const NavbarC = () => {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#contact">Contact Us</Nav.Link>
+            <Nav.Link href="/contact">Contact Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

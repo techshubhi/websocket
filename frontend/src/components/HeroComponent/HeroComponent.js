@@ -2,10 +2,10 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import './HeroComponent.css';
 
-const HeroComponent = ({img, imgAlt, heading, subheading}) => {
+const HeroComponent = ({img, imgAlt, heading, subheading, className}) => {
   return (
     <Container fluid className='hero-band'>
-       <Container>
+       <Container className={className}>
          <Row>
            <Col xs={12} sm={12} md={6} lg={6} className='imgSec'>
                 <img alt={imgAlt} src={img} />
